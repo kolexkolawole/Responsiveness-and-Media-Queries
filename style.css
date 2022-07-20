@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  background-color: #ff7978;
+  background-image: url("desktop.png");
+  font-family: "Poppins", sans-serif;
+}
+
+.position {
+  display: flex;
+  margin: auto;
+  margin-top: 10vh;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    color: #5d54a3;
+    font-size: 12px;
+  }
+}
+
+h1 {
+  font-size: 40px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+}
+
+.div1 {
+  color: white;
+  align-self: center;
+  box-sizing: border-box;
+  /* padding: 10px; */
+}
+
+.div1 p {
+  font-size: 15px;
+  padding-right: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+#HHH {
+  text-align: left;
+  /* margin-right: 2%; */
+}
+
+.div2 {
+  /* width: 100%; */
+}
+
+#try {
+  text-align: center;
+  border: 2px;
+  border-radius: 5px;
+  padding: 3%;
+  background-color: #5d54a3;
+  color: white;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  margin-left: 1%;
+}
+
+#form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  color: whitesmoke;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.form button {
+  background-color: #37cc8a;
+  border: 2px;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  padding: 4%;
+  font-size: 7px;
+  font-family: inherit;
+  width: 100%;
+  margin: 5px;
+}
+
+.form button:hover {
+  opacity: 1;
+  background-color: #73c29e;
+}
